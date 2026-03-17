@@ -1,0 +1,30 @@
+{
+  "back": {
+    "char": "",
+    "unicode": "\\ue001"
+  },
+  "layer-outlined": {
+    "char": "",
+    "unicode": "\\ue002"
+  },
+  "location": {
+    "char": "",
+    "unicode": "\\ue003"
+  },
+  "search-outlined-13": {
+    "char": "",
+    "unicode": "\\ue004"
+  },
+  "search-outlined-16": {
+    "char": "",
+    "unicode": "\\ue005"
+  },
+  "search-outlined-20": {
+    "char": "",
+    "unicode": "\\ue006"
+  },
+  "search-outlined": {
+    "char": "",
+    "unicode": "\\ue007"
+  }
+}

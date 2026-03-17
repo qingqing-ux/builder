@@ -1,0 +1,15 @@
+{
+  "name": "iconfont-generator",
+  "version": "1.0.0",
+  "description": "Icon font generator tool",
+  "main": "generate-iconfont.js",
+  "scripts": {
+    "generate": "node generate-iconfont.js"
+  },
+  "dependencies": {
+    "svgicons2svgfont": "^12.0.0",
+    "svg2ttf": "^6.0.3",
+    "ttf2woff": "^3.0.0",
+    "ttf2woff2": "^5.0.0"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/generate-iconfont.js)",
+      "Bash(ls -lh ../ui/components/spx/iconfont*)"
+    ]
+  }
+}
