@@ -35,7 +35,7 @@ const handleClick = () => {
   transition: 0.2s; // TODO: animation for background slide?
 
   &.active {
-    border-radius: 8px;
+    border-radius: var(--ui-border-radius-form-control);
     color: var(--ui-color-title);
     background: var(--ui-color-grey-100);
     box-shadow:

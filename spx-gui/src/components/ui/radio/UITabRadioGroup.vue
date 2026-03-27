@@ -38,7 +38,7 @@ provide(updateRadioValueKey, updateValue)
   justify-content: center;
   align-items: center;
 
-  border-radius: 8px;
+  border-radius: var(--ui-border-radius-form-control);
   background: var(--ui-color-grey-400);
 }
 </style>

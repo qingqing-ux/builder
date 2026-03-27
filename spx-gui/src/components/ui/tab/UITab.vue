@@ -45,10 +45,10 @@ function handleClick() {
   }
 
   &:first-child {
-    border-top-left-radius: var(--ui-border-radius-3);
+    border-top-left-radius: var(--ui-border-radius-form-control);
   }
   &:last-child {
-    border-top-right-radius: var(--ui-border-radius-3);
+    border-top-right-radius: var(--ui-border-radius-form-control);
   }
 }
 </style>

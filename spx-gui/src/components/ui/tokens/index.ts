@@ -26,6 +26,7 @@ export const fontFamily = {
 }
 
 export const borderRadius = {
+  formControl: '4px',
   1: '8px',
   2: '12px',
   3: '20px'

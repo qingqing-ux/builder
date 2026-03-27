@@ -86,7 +86,7 @@ onBeforeUnmount(() => {
   justify-content: space-between;
   gap: 2px;
 
-  border-radius: var(--ui-border-radius-2);
+  border-radius: var(--ui-border-radius-form-control);
   color: var(--ui-color-grey-1000);
   background: var(--ui-color-grey-300);
   transition: 0.3s;
