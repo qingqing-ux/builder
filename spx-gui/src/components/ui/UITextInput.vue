@@ -71,8 +71,6 @@ onMounted(() => {
 
 <style lang="scss" scoped>
 .ui-text-input {
-  --n-border-radius: var(--ui-border-radius-form-control);
-
   // it's not possible to control input's hovered-bg-color with themeOverrides,
   // so we do background color control here
   &:not(.n-input--focus, .n-input--error-status, .n-input--success-status) {
