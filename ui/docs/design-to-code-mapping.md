@@ -33,7 +33,7 @@
 |----------|------------|
 | `Primary / Secondary / Boring / White / Danger / Success / Blue / Purple / Yellow` | `color` |
 | `Large / Medium / Small` | `size` |
-| `Shadow / Flat / Flat-Stroke` | `variant` |
+| `Shadow / Flat / Stroke` | `variant` |
 | `Square / Circle` | `shape` |
 | `Loading / Disabled` | `loading` / `disabled` |
 | `Button-only icon/*` | 只传 `icon`，不传默认 slot 文本 |
@@ -44,6 +44,30 @@
   - `\<UIButton color="primary" size="large" variant="shadow" shape="square" \>`
 - `Button-only icon/Large/Primary/Shadow/Circle/Default`
   - `\<UIButton color="primary" size="large" variant="shadow" shape="circle" icon="..." \>`
+
+补充说明：
+
+- 当前 `builder-component.lib.pen` 里的 button 叶子组件命名，已经按 `UIButton.vue` 的词表对齐：
+  - `Solid` -> `Shadow`
+  - `Flat-Stroke / Flat-stroke` -> `Stroke`
+  - `Neutral` -> `Boring`
+- 这里只统一了命名兼容性，不代表视觉一定与 `UIButton` 当前实现逐像素一致。
+- 例如设计库里一部分 filled family 虽然名字已经回到 `Shadow`，但视觉上仍然是“40px 内容本体 + 无阴影”的规范。
+- 真正同步到代码时，需要额外判断是直接复用现有 `shadow` 视觉，还是继续调整 `UIButton.vue` 的实现。
+
+当前按钮库的实务基线有两点需要特别注意：
+
+1. Button 叶子命名优先跟代码词表保持一致
+- 本地 `builder-component.lib.pen` 中，button 叶子组件已经统一使用 `Shadow / Flat / Stroke`
+- 后续如果继续扩 button family，优先沿用这套词表，不要再新增 `Solid` 或 `Flat-Stroke` 这样的平行命名
+
+2. Page-level 引用通常经过聚合入口
+- 页面通常不会直接依赖某个底层叶子 button 组件 ID
+- 更常见的是引用聚合入口，例如：
+  - `8dhVn` -> `Button-only icon/Default`
+  - `bI2fk` -> `Button-only icon-flat`
+  - `hZ2GE` -> `Button-only icon-flat-stroke`
+- 所以如果设计库里发生“叶子组件删重 / 合并”，先检查聚合入口的 `slot` 是否同步更新，再判断页面是否需要改
 
 ### 2. `Card/* item*` 先看 `UIBlockItem` 这一层
 
