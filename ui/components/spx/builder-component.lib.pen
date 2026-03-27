@@ -17104,7 +17104,7 @@
           "id": "YDq4K",
           "x": 2413,
           "y": 1614,
-          "name": "Tab/combination tab",
+          "name": "Segmented/icon-text variants",
           "clip": true,
           "cornerRadius": 5,
           "stroke": {
@@ -17118,7 +17118,7 @@
             {
               "type": "frame",
               "id": "Bse9z",
-              "name": "Tab/show/show",
+              "name": "Segmented/Visibility/Shown",
               "reusable": true,
               "clip": true,
               "cornerRadius": 12,
@@ -17131,7 +17131,7 @@
                 {
                   "type": "frame",
                   "id": "xi82l",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "clip": true,
                   "width": 32,
                   "height": 32,
@@ -17192,7 +17192,7 @@
                 {
                   "type": "frame",
                   "id": "2yr2X",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "clip": true,
                   "width": 32,
                   "height": 32,
@@ -17255,7 +17255,7 @@
             {
               "type": "frame",
               "id": "iHL6B",
-              "name": "Tab/show/not show",
+              "name": "Segmented/Visibility/Hidden",
               "reusable": true,
               "clip": true,
               "cornerRadius": 12,
@@ -17268,7 +17268,7 @@
                 {
                   "type": "frame",
                   "id": "JEUFB",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "clip": true,
                   "width": 32,
                   "height": 32,
@@ -17329,7 +17329,7 @@
                 {
                   "type": "frame",
                   "id": "wPvVD",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "clip": true,
                   "width": 32,
                   "height": 32,
@@ -17393,7 +17393,7 @@
             {
               "type": "frame",
               "id": "nd7GU",
-              "name": "Tab/Text/Left",
+              "name": "Segmented/Text/Left active",
               "reusable": true,
               "clip": true,
               "cornerRadius": 12,
@@ -17406,7 +17406,7 @@
                 {
                   "type": "frame",
                   "id": "K603n",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "height": 32,
                   "fill": "$turquoise200",
                   "stroke": {
@@ -17439,7 +17439,7 @@
                 {
                   "type": "frame",
                   "id": "vWavb",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "height": 32,
                   "fill": "$grey300",
                   "stroke": {
@@ -17474,7 +17474,7 @@
             {
               "type": "frame",
               "id": "QRypI",
-              "name": "Tab/Text/Right",
+              "name": "Segmented/Text/Right active",
               "reusable": true,
               "clip": true,
               "cornerRadius": 12,
@@ -17487,7 +17487,7 @@
                 {
                   "type": "frame",
                   "id": "jU77u",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "height": 32,
                   "fill": "$grey300",
                   "stroke": {
@@ -17520,7 +17520,7 @@
                 {
                   "type": "frame",
                   "id": "6VL3g",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "height": 32,
                   "fill": "$turquoise200",
                   "stroke": {
@@ -17555,7 +17555,7 @@
             {
               "type": "frame",
               "id": "xGFhu",
-              "name": "Tab/Rotate/Rotate",
+              "name": "Segmented/Rotation/Rotate",
               "reusable": true,
               "clip": true,
               "cornerRadius": 12,
@@ -17568,7 +17568,7 @@
                 {
                   "type": "frame",
                   "id": "sJpLv",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "clip": true,
                   "width": 32,
                   "height": 32,
@@ -17631,7 +17631,7 @@
                 {
                   "type": "frame",
                   "id": "3skJE",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "clip": true,
                   "width": 32,
                   "height": 32,
@@ -17687,7 +17687,7 @@
                 {
                   "type": "frame",
                   "id": "DmV2l",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "clip": true,
                   "width": 32,
                   "height": 32,
@@ -17752,7 +17752,7 @@
             {
               "type": "frame",
               "id": "plTuG",
-              "name": "Tab/Rotate/Horizonal flip",
+              "name": "Segmented/Rotation/Horizontal flip",
               "reusable": true,
               "clip": true,
               "cornerRadius": 12,
@@ -17765,7 +17765,7 @@
                 {
                   "type": "frame",
                   "id": "deDaL",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "clip": true,
                   "width": 32,
                   "height": 32,
@@ -17827,7 +17827,7 @@
                 {
                   "type": "frame",
                   "id": "Sovng",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "clip": true,
                   "width": 32,
                   "height": 32,
@@ -17883,7 +17883,7 @@
                 {
                   "type": "frame",
                   "id": "uHonL",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "clip": true,
                   "width": 32,
                   "height": 32,
@@ -17947,7 +17947,7 @@
             {
               "type": "frame",
               "id": "KgtZc",
-              "name": "Tab/Rotate/Not rotate",
+              "name": "Segmented/Rotation/No rotation",
               "reusable": true,
               "clip": true,
               "cornerRadius": 12,
@@ -17960,7 +17960,7 @@
                 {
                   "type": "frame",
                   "id": "Op6A1",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "clip": true,
                   "width": 32,
                   "height": 32,
@@ -18022,7 +18022,7 @@
                 {
                   "type": "frame",
                   "id": "jqPAT",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "clip": true,
                   "width": 32,
                   "height": 32,
@@ -18078,7 +18078,7 @@
                 {
                   "type": "frame",
                   "id": "NDAC8",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "clip": true,
                   "width": 32,
                   "height": 32,
@@ -18142,7 +18142,7 @@
             {
               "type": "frame",
               "id": "giKw2",
-              "name": "Tab/Animation/Duration",
+              "name": "Segmented/Animation/Duration",
               "reusable": true,
               "fill": "$grey100",
               "cornerRadius": 8,
@@ -18167,7 +18167,7 @@
                 {
                   "type": "frame",
                   "id": "FhVYf",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "fill": "$turquoise200",
                   "cornerRadius": 8,
                   "stroke": {
@@ -18292,7 +18292,7 @@
                 {
                   "type": "frame",
                   "id": "Qfbji",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "fill": "#ffffffff",
                   "cornerRadius": 8,
                   "stroke": {
@@ -18416,7 +18416,7 @@
                 {
                   "type": "frame",
                   "id": "wCzXg",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "fill": "#ffffffff",
                   "cornerRadius": 8,
                   "stroke": {
@@ -18542,7 +18542,7 @@
             {
               "type": "frame",
               "id": "UcJbP",
-              "name": "Tab/Animation/Binding",
+              "name": "Segmented/Animation/Binding",
               "reusable": true,
               "rotation": -0.1550181552404865,
               "fill": "$grey100",
@@ -18568,7 +18568,7 @@
                 {
                   "type": "frame",
                   "id": "APiFf",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "fill": "#ffffffff",
                   "cornerRadius": 8,
                   "stroke": {
@@ -18694,7 +18694,7 @@
                 {
                   "type": "frame",
                   "id": "daMwf",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "fill": "$turquoise200",
                   "cornerRadius": 8,
                   "stroke": {
@@ -18819,7 +18819,7 @@
                 {
                   "type": "frame",
                   "id": "0h2aA",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "fill": "#ffffffff",
                   "cornerRadius": 8,
                   "stroke": {
@@ -18946,7 +18946,7 @@
             {
               "type": "frame",
               "id": "60vsa",
-              "name": "Tab/Animation/Sound",
+              "name": "Segmented/Animation/Sound",
               "reusable": true,
               "fill": "$grey100",
               "cornerRadius": 8,
@@ -18971,7 +18971,7 @@
                 {
                   "type": "frame",
                   "id": "xAlOV",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "fill": "#ffffffff",
                   "cornerRadius": 8,
                   "stroke": {
@@ -19096,7 +19096,7 @@
                 {
                   "type": "frame",
                   "id": "Zm8YD",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "fill": "#ffffffff",
                   "cornerRadius": 8,
                   "stroke": {
@@ -19220,7 +19220,7 @@
                 {
                   "type": "frame",
                   "id": "BUCsb",
-                  "name": ".Tab/text-icon-element",
+                  "name": ".Segmented/item",
                   "fill": "$turquoise200",
                   "cornerRadius": 8,
                   "stroke": {
@@ -19350,7 +19350,7 @@
           "id": "VHdf3",
           "x": 2794,
           "y": 2238,
-          "name": "Tab/independent text",
+          "name": "Segmented/text-only variants",
           "clip": true,
           "width": 126,
           "height": 176,
@@ -19366,7 +19366,7 @@
             {
               "type": "frame",
               "id": "BRO5N",
-              "name": "Tab/Boring/Default",
+              "name": "Segmented/Text only/Default",
               "reusable": true,
               "fill": "$grey300",
               "cornerRadius": 12,
@@ -19401,7 +19401,7 @@
             {
               "type": "frame",
               "id": "HuMs3",
-              "name": "Tab/Boring/Active",
+              "name": "Segmented/Text only/Active",
               "reusable": true,
               "fill": "$turquoise500",
               "cornerRadius": 12,
@@ -19435,7 +19435,7 @@
             {
               "type": "frame",
               "id": "3Jeg5",
-              "name": "Tab/Boring/Focus",
+              "name": "Segmented/Text only/Focus",
               "reusable": true,
               "fill": "$turquoise500",
               "cornerRadius": 12,
@@ -19474,7 +19474,7 @@
           "id": "We53L",
           "x": 2414,
           "y": 2238,
-          "name": "Tab/code modal tab",
+          "name": "Segmented/code modal variants",
           "clip": true,
           "width": 352,
           "cornerRadius": 5,
@@ -19489,7 +19489,7 @@
             {
               "type": "frame",
               "id": "EO5cL",
-              "name": "Tab/Code modal/Left",
+              "name": "Segmented/Code modal/Left active",
               "reusable": true,
               "clip": true,
               "fill": "$grey400",
@@ -19505,7 +19505,7 @@
                 {
                   "type": "frame",
                   "id": "ZKvKn",
-                  "name": ".Tab/code modal tab-element",
+                  "name": ".Segmented/code modal item",
                   "clip": true,
                   "width": 154,
                   "fill": "$grey100",
@@ -19550,7 +19550,7 @@
                 {
                   "type": "frame",
                   "id": "F0BOI",
-                  "name": ".Tab/code modal tab-element",
+                  "name": ".Segmented/code modal item",
                   "clip": true,
                   "width": 154,
                   "cornerRadius": 6,
@@ -19585,7 +19585,7 @@
             {
               "type": "frame",
               "id": "dGMX8",
-              "name": "Tab/Code modal/Right",
+              "name": "Segmented/Code modal/Right active",
               "reusable": true,
               "clip": true,
               "fill": "$grey400",
@@ -19601,7 +19601,7 @@
                 {
                   "type": "frame",
                   "id": "rgQvN",
-                  "name": ".Tab/code modal tab-element",
+                  "name": ".Segmented/code modal item",
                   "clip": true,
                   "width": 154,
                   "cornerRadius": 6,
@@ -19634,7 +19634,7 @@
                 {
                   "type": "frame",
                   "id": "0wooi",
-                  "name": ".Tab/code modal tab-element",
+                  "name": ".Segmented/code modal item",
                   "clip": true,
                   "width": 154,
                   "fill": "$grey100",
@@ -24184,7 +24184,7 @@
           "id": "le3CV",
           "x": 2413,
           "y": 1561,
-          "name": "Tab",
+          "name": "Segmented control",
           "reusable": true,
           "slot": [
             "giKw2",

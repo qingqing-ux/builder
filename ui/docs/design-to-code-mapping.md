@@ -180,7 +180,43 @@
 
 因此如果设计稿变的是 tab 样式，优先改 `UITab.vue`；如果变的是编辑器头部布局，改 `EditorHeader.vue`；如果变的是具体 tab 数量或切换逻辑，改 `SpriteEditor.vue` / `StageEditor.vue`。
 
-### 7. `left-panel-*` 对应 `EditorList` 这一类“左侧列表 + 右侧详情”布局
+### 7. `Segmented/*` 对应表单里的分段选择控件，而不是顶部导航 Tab
+
+设计库里这类组件过去有一部分沿用 `Tab/*` 命名，但从设计语义看，它们更接近“分段选择 / segmented control”，不是编辑器顶部那种页面级导航 tab。
+
+当前命名规范建议如下：
+
+- 页面级导航继续使用 `tab` 语义：
+  - `editor-nav-panel`
+  - `editor-panel-*`
+- 表单里用于二选一、多选一、模式切换的这类控件，统一使用 `Segmented/*` 命名，不再新增 `Tab/*`：
+  - `Segmented/Text only/*`
+  - `Segmented/Visibility/*`
+  - `Segmented/Rotation/*`
+  - `Segmented/Animation/*`
+  - `Segmented/Code modal/*`
+
+代码里这组设计更接近的实现是：
+
+- `spx-gui/src/components/ui/radio/UITabRadioGroup.vue`
+- `spx-gui/src/components/ui/radio/UITabRadio.vue`
+
+目前最明确的落点是：
+
+- `spx-gui/src/components/editor/code-editor/xgo-code-editor/ui/input-helper/InputHelper.vue`
+
+也就是说：
+
+- 如果设计稿改的是编辑器顶部页签切换，优先看 `UITabs.vue` / `UITab.vue`
+- 如果设计稿改的是表单里的模式切换、选项切换、左右切换，优先看 `UITabRadioGroup.vue` / `UITabRadio.vue`
+
+命名上的具体规则是：
+
+- 设计库名称优先表达交互语义，不直接照搬 Vue 文件名
+- 设计层使用 `Segmented/*`，代码映射文档再说明它对应 `UITabRadio*`
+- 后续如果继续扩这类组件，不再新增 `Tab/Boring/*`、`Tab/Code modal/*` 这类旧命名
+
+### 8. `left-panel-*` 对应 `EditorList` 这一类“左侧列表 + 右侧详情”布局
 
 设计库里的：
 
@@ -292,11 +328,12 @@
 
 以后同步 `builder-component.lib.pen` 到前端代码，建议按下面顺序定位：
 
-1. 先看设计变更属于哪一类：按钮、资源卡片、tab 导航、左侧列表、页面布局、预处理流程。
+1. 先看设计变更属于哪一类：按钮、资源卡片、tab 导航、segmented 表单控件、左侧列表、页面布局、预处理流程。
 2. 先找基础组件：
    - `UIButton.vue`
    - `UIBlockItem.vue`
    - `UITab.vue`
+   - `UITabRadio.vue`
    - `EditorList.vue`
    - `UICard.vue`
 3. 再找业务组合组件：
@@ -327,6 +364,7 @@
 - `Card/* item*` / `Card/Asset` -> `UIBlockItem.vue` + `UIEditor*Item.vue` + 对应业务 `*Item.vue`
 - `Corner marker/*` -> `UICornerIcon.vue` + `CornerMenu.vue`
 - `editor-nav-panel` / `editor-panel-*` -> `EditorHeader.vue` + `UITabs.vue` + `SpriteEditor.vue` / `StageEditor.vue`
+- `Segmented/*` -> `UITabRadioGroup.vue` + `UITabRadio.vue`
 - `left-panel-*` -> `EditorList.vue` + 各类 `*Editor.vue`
 - `Card/Edit item/*` -> `PreprocessModal.vue` 及其子流程组件
 
